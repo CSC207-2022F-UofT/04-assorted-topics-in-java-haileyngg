@@ -44,7 +44,7 @@ class DrivableTrader extends Trader<Drivable> {
             return super_price;
         }
 
-        return super_price * item.getMaxSpeed();
+        return super_price + item.getMaxSpeed();
     }
 }
 
